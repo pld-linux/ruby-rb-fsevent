@@ -28,6 +28,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 FSEvents API with Signals catching (without RubyCocoa)
 
+NOTE: This gem is MacOSX specific, you do not need it on Linux
+
 %prep
 %setup -q -n %{pkgname}-%{version}
 
